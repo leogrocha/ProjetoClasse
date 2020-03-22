@@ -41,10 +41,10 @@ namespace ProjetoClasse
             Console.WriteLine();
 
             double avgStudent1 = (student1.Note1 + student1.Note2 + student1.Note3 + student1.Note4) / 4.00;
-            Console.WriteLine("Media student 1: " + avgStudent1.ToString("F2", CultureInfo.InvariantCulture));
+            Console.WriteLine("Average student 1: " + avgStudent1.ToString("F2", CultureInfo.InvariantCulture));
 
             double avgStudent2 = (student2.Note1 + student2.Note2 + student2.Note3 + student2.Note4) / 4.00;
-            Console.WriteLine("Media student 2: " + avgStudent2.ToString("F2", CultureInfo.InvariantCulture));
+            Console.WriteLine("Average student 2: " + avgStudent2.ToString("F2", CultureInfo.InvariantCulture));
 
             if (avgStudent1 > avgStudent2)
                 Console.WriteLine("Student 1 has higher average: " + avgStudent1.ToString("F2", CultureInfo.InvariantCulture));
